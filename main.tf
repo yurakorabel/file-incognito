@@ -1,4 +1,8 @@
+# The following code define the AWS provider with the specified region
+
+# AWS provider
 provider "aws" {
-  region = "us-east-1"
+  region = var.default-region
 }
+
 
